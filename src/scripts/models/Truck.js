@@ -14,12 +14,12 @@ class Truck extends Transport {
     this.id = id;
     this.licensePlate = licensePlate;
     this.typeOfGas = typeOfGas;
-
-    this.showAverageSpeed = () => {
-      console.log(`${this.averageSpeed}km`);
-      return `${this.averageSpeed}km`;
-    };
   }
+
+  showAverageSpeed() {
+    console.log(`${this.averageSpeed}km`);
+    return `${this.averageSpeed}km`;
+  };
 }
 
 export default Truck;

@@ -14,12 +14,12 @@ class Ship extends Transport {
     this.id = id;
     this.name = name;
     this.countOfTeam = countOfTeam;
-
-    this.showAverageSpeed = () => {
-      console.log(`${this.averageSpeed}nm`);
-      return `${this.averageSpeed}nm`;
-    };
   }
+
+  showAverageSpeed() {
+    console.log(`${this.averageSpeed}nm`);
+    return `${this.averageSpeed}nm`;
+  };
 }
 
 export default Ship;

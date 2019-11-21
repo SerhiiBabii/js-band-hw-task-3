@@ -16,7 +16,7 @@ const truckValues = e => {
   e.preventDefault();
 
   const transport = new TransportFactory();
-  const currentShip = transport.create(
+  const currentTruck = transport.create(
     'truck',
     truckId.value,
     truckModel.value,
